@@ -419,11 +419,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "movies-the-god",
-          title: 'The God',
+            },},{id: "movies-interstellar",
+          title: 'Interstellar',
           description: "",
           section: "Movies",handler: () => {
-              window.location.href = "/movies/the_god/";
+              window.location.href = "/movies/Interstellar/";
             },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
