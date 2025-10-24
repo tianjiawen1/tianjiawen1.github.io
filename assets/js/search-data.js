@@ -83,16 +83,14 @@ ninja.data = [{
           description: "",
           section: "Movies",handler: () => {
               window.location.href = "/movies/Interstellar/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-i-joined-tsinghua-university-as-a-postdoctoral-researcher-with-professor-sun-fuchun-as-my-supervisor",
+          title: 'I joined Tsinghua University as a postdoctoral researcher, with Professor Sun Fuchun as...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-join-in-bytedance-seed-robotics",
+          title: 'Join in Bytedance Seed Robotics.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-gr-3-tech-report-published",
+          title: 'GR-3 Tech Report Published.',
           description: "",
           section: "News",},{id: "news-bytewrist-tech-report-published",
           title: 'ByteWrist Tech Report Published.',
