@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-typograms",
+        },{id: "post-doudou-and-jojo-waiting-for-food",
+        
+          title: "doudou and jojo waiting for food",
+        
+        description: "a picture for doudou and jojo",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/dogs/";
+          
+        },
+      },{id: "post-a-post-with-typograms",
         
           title: "a post with typograms",
         
