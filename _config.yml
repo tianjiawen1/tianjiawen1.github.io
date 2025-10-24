@@ -86,7 +86,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: 打工人的学习生活观察日记 # blog_name will be displayed in your blog page
-blog_description: about life, works, and learning
+blog_description: about life, work, and learning
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
