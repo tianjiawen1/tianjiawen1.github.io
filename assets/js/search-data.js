@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-doudou-and-jojo-waiting-for-food",
+        },{id: "post-the-impact-of-cameras-on-model-performance",
+        
+          title: "The Impact of Cameras on Model Performance",
+        
+        description: "How to Troubleshoot Robot Problems",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/camera/";
+          
+        },
+      },{id: "post-doudou-and-jojo-waiting-for-food",
         
           title: "doudou and jojo waiting for food",
         
@@ -60,17 +71,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/dogs/";
-          
-        },
-      },{id: "post-a-post-with-typograms",
-        
-          title: "a post with typograms",
-        
-        description: "this is what included typograms code could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/typograms/";
           
         },
       },{id: "books-the-godfather",
