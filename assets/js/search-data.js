@@ -100,6 +100,11 @@ ninja.data = [{
           description: "GR-3 VLA Model with ByteMini",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
+            },},{id: "projects-bytewrist",
+          title: 'ByteWrist',
+          description: "Robot Wrist of ByteMini",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/2_project/";
             },},{
         id: 'social-email',
         title: 'email',
