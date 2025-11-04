@@ -14,7 +14,7 @@ a novel highly-flexible and anthropomorphic parallel wrist for robotic manipulat
     <div class="col-12 mt-3">
         <!-- Responsive HTML5 video; replace the src with your video file -->
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls preload="metadata" poster="/assets/img/gr3cover.jpeg">
+            <video class="embed-responsive-item" controls preload="metadata" poster="/assets/img/bytewristcover.png">
                 <source src="/assets/video/bytewirst.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
