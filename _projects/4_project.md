@@ -4,7 +4,7 @@ title: ByteMini
 description: a lightweight wheeled humanoid dual-arm robot
 img: assets/img/bytemini.jpg
 importance: 3
-category: fun
+category: work
 ---
 
 ByteMini v1.0
