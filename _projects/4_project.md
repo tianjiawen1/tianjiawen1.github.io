@@ -47,4 +47,29 @@ ByteMini v2.0
         {% include figure.liquid loading="eager" path="assets/img/bytemini.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="600"%}
 </div>
 
+
+
+
+
 ByteMini v2.5
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bm25creo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bm25.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12 mt-3">
+        <!-- Responsive HTML5 video; replace the src with your video file -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" controls preload="metadata" poster="/assets/img/bm25.jpg">
+                <source src="/assets/video/bm25.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
