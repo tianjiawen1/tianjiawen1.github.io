@@ -105,6 +105,11 @@ ninja.data = [{
           description: "Robot Wrist of ByteMini",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-continuum-robot",
+          title: 'Continuum Robot',
+          description: "PhD research project",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
