@@ -57,6 +57,18 @@ ByteMini v2.0
         {% include figure.liquid loading="eager" path="assets/img/bm201.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="800" %}
 </div>
 
+<div class="row">
+    <div class="col-12 mt-3">
+        <!-- Responsive HTML5 video; replace the src with your video file -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" controls preload="metadata" poster="/assets/img/bm20.jpg">
+                <source src="/assets/video/bm20.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
 
 ByteMini v2.5
 
