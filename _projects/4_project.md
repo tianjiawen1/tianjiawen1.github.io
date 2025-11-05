@@ -43,12 +43,19 @@ ByteMini v1.5
 
 ByteMini v2.0
 
-<div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/bytemini.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="600"%}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bytemini.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bm20.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 
-
-
+<div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bm201.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="800" %}
+</div>
 
 
 ByteMini v2.5
