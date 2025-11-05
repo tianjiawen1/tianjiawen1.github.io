@@ -8,12 +8,9 @@ category: work
 ---
 
 ByteMini v1.0
-
 <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bm1.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
 </div>
-
-
 <div class="row">
     <div class="col-12 mt-3">
         <!-- Responsive HTML5 video; replace the src with your video file -->
@@ -27,7 +24,6 @@ ByteMini v1.0
 </div>
 
 ByteMini v1.5
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bm15creo1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -40,10 +36,7 @@ ByteMini v1.5
     </div>
 </div>
 
-
 ByteMini v2.0
-
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bytemini.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -52,16 +45,14 @@ ByteMini v2.0
         {% include figure.liquid loading="eager" path="assets/img/bm20.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bm201.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="800" %}
 </div>
-
 <div class="row">
     <div class="col-12 mt-3">
         <!-- Responsive HTML5 video; replace the src with your video file -->
         <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" controls preload="metadata" poster="/assets/img/bm20.jpg">
+            <video class="embed-responsive-item" controls preload="metadata" poster="/assets/img/bm20.png">
                 <source src="/assets/video/bm20.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -69,9 +60,7 @@ ByteMini v2.0
     </div>
 </div>
 
-
 ByteMini v2.5
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bm25creo.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -80,7 +69,6 @@ ByteMini v2.5
         {% include figure.liquid loading="eager" path="assets/img/bm25.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
 <div class="row">
     <div class="col-12 mt-3">
         <!-- Responsive HTML5 video; replace the src with your video file -->
