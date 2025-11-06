@@ -3,7 +3,7 @@ layout: page
 title: Continuum Robot
 description: PhD research project
 img: assets/img/cr2.jpg
-importance: 3
+importance: 4
 category: work
 ---
 

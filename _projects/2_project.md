@@ -5,7 +5,7 @@ description: Robot Wrist of ByteMini
 img: assets/img/bytewristcover.png
 importance: 2
 category: work
-giscus_comments: true
+
 ---
 
 a novel highly-flexible and anthropomorphic parallel wrist for robotic manipulation.

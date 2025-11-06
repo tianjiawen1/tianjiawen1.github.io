@@ -5,7 +5,7 @@ description: GR-3 VLA Model with ByteMini
 img: assets/img/gr3cover.jpeg
 importance: 1
 category: work
-related_publications: true
+
 ---
 
 A Generalizable and Robust Vision-Language-Action (VLA) Model for Long-Horizon and Dexterous Tasks.
