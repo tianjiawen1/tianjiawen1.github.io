@@ -51,10 +51,29 @@ E-UMI-v3
 由于Quest手柄安装位置离手腕旋转点太远，导致数据抖动，改变了Quest的安装位置。
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumiv3creo.jpeg" title="example image" class="img-fluid rounded z-depth-1" hight="600" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv3creo.jpg" title="example image" class="img-fluid rounded z-depth-1" hight="600" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/eumiv3.jpg" title="example image" class="img-fluid rounded z-depth-1" hight="600"%}
+    </div>
+</div>
+
+E-UMI-v4
+
+根据采集任务，进一步调整Quest手柄安装位置，加入风扇等，整体更加可靠，稳定版本。
+<div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumiv4creo.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="600" %}
+</div>
+
+E-UMI-System
+
+为了进一步与ByteMini相机对齐，使得数据更加有效，开发了一体化数据采集系统。
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumisyscreo.jpg" title="example image" class="img-fluid rounded z-depth-1" hight="600" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumisys.png" title="example image" class="img-fluid rounded z-depth-1" hight="600"%}
     </div>
 </div>
 
