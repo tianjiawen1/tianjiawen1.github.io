@@ -8,6 +8,7 @@ category: work
 ---
 
 ByteMini v1.0
+
 快速搭建的初始版本，单臂7自由度+1个夹爪。
 <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/bm1.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" %}
@@ -25,6 +26,7 @@ ByteMini v1.0
 </div>
 
 ByteMini v1.5
+
 快速迭代的小批量版本，应用于GR-3模型。单臂负载能力大约1.3kg。
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -39,6 +41,7 @@ ByteMini v1.5
 </div>
 
 ByteMini v2.0
+
 加入自研底盘的成熟版本，后续大批量应用的主力版本。
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -64,6 +67,7 @@ ByteMini v2.0
 </div>
 
 ByteMini v2.5
+
 带外观的版本，用于demo拍摄。
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
