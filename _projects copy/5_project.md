@@ -1,80 +1,80 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: E-UMI
+description: data acquisition device
+img: assets/img/EUMI.jpg
+importance: 5
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+受限于人力资源，ByteMini的数量无法大规模扩展，但模型对于数据的需求必须得到满足，因此有了E-UMI项目。该项目旨在快速采集机器人末端数据，是真机数据的补充。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+E-UMI的开发也与ByteMini类似，从快速搭建版本到成熟版本，经历了多次迭代。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+E-UMI-v1
 
+快速搭建版本。
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv1creo.jpeg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv1.png" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 <div class="row">
+    <div class="col-12 mt-3">
+        <!-- Responsive HTML5 video; replace the src with your video file -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" controls preload="metadata" poster="/assets/img/eumiv1.jpg">
+                <source src="/assets/video/eumiv1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+E-UMI-v2
+
+为了准确反馈EUMI的位姿信息，加入了Quest手柄。
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv2creo.jpeg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumiv2.jpg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+E-UMI-v3
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+由于Quest手柄安装位置离手腕旋转点太远，导致数据抖动，改变了Quest的安装位置。
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumiv3creo.jpg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumiv3.jpg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+
+E-UMI-v4
+
+根据采集任务，进一步调整Quest手柄安装位置，加入风扇等，整体更加可靠，稳定版本。
+<div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumiv4creo.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" width="600" %}
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+E-UMI-System
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+为了进一步与ByteMini相机对齐，使得数据更加有效，开发了一体化数据采集系统。
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumisyscreo.jpg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eumisys.png" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; object-fit: contain;" %}
+    </div>
 </div>
-```
 
-{% endraw %}
+
