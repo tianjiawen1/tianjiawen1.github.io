@@ -83,6 +83,11 @@ ninja.data = [{
           description: "",
           section: "Movies",handler: () => {
               window.location.href = "/movies/Interstellar/";
+            },},{id: "movies-escape-from-the-outland-用武之地",
+          title: 'Escape From The Outland 用武之地',
+          description: "",
+          section: "Movies",handler: () => {
+              window.location.href = "/movies/yongwuzhidi/";
             },},{id: "news-i-joined-tsinghua-university-as-a-postdoctoral-researcher-with-professor-sun-fuchun-as-my-supervisor",
           title: 'I joined Tsinghua University as a postdoctoral researcher, with Professor Sun Fuchun as...',
           description: "",
@@ -110,6 +115,16 @@ ninja.data = [{
           description: "PhD research project",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
+            },},{id: "projects-bytemini",
+          title: 'ByteMini',
+          description: "a lightweight wheeled humanoid dual-arm robot",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project/";
+            },},{id: "projects-e-umi",
+          title: 'E-UMI',
+          description: "data acquisition device",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{
         id: 'social-email',
         title: 'email',
