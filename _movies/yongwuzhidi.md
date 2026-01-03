@@ -13,5 +13,4 @@ stars: 3
 status: Finished
 ---
 
-脑洞大开的旷世佳作！
-About love and death!
+很是一般的战争片~
