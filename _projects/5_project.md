@@ -19,10 +19,10 @@ E-UMI的开发也与ByteMini类似，从快速搭建版本到成熟版本，经�
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumiv1creo.jpeg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; width: auto;" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv1creo.jpeg" title="example image" class="rounded z-depth-1" style="height: 400px; width: auto; object-fit: contain;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumiv1.png" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; width: auto;" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv1.png" title="example image" class="rounded z-depth-1" style="height: 400px; width: auto; object-fit: contain;" %}
     </div>
 </div>
 
@@ -45,10 +45,10 @@ E-UMI的开发也与ByteMini类似，从快速搭建版本到成熟版本，经�
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumiv2creo.jpeg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; width: auto;" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv2creo.jpeg" title="example image" class="rounded z-depth-1" style="height: 400px; width: auto; object-fit: contain;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumiv2.jpg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; width: auto;" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv2.jpg" title="example image" class="rounded z-depth-1" style="height: 400px; width: auto; object-fit: contain;" %}
     </div>
 </div>
 
@@ -60,10 +60,10 @@ E-UMI的开发也与ByteMini类似，从快速搭建版本到成熟版本，经�
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumiv3creo.jpg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; width: auto;" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv3creo.jpg" title="example image" class="rounded z-depth-1" style="height: 400px; width: auto; object-fit: contain;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumiv3.jpg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; width: auto;" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumiv3.jpg" title="example image" class="rounded z-depth-1" style="height: 400px; width: auto; object-fit: contain;" %}
     </div>
 </div>
 
@@ -74,7 +74,7 @@ E-UMI的开发也与ByteMini类似，从快速搭建版本到成熟版本，经�
 根据采集任务，进一步调整Quest手柄安装位置，加入风扇等，整体更加可靠，稳定版本。
 
 <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/eumiv4creo.jpg" class="img-fluid rounded z-depth-1 mx-auto d-block" style="height: 400px; width: auto;" %}
+    {% include figure.liquid loading="eager" path="assets/img/eumiv4creo.jpg" class="rounded z-depth-1 mx-auto d-block" style="height: 400px; width: auto; object-fit: contain;" %}
 </div>
 
 ---
@@ -85,9 +85,9 @@ E-UMI的开发也与ByteMini类似，从快速搭建版本到成熟版本，经�
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumisyscreo.jpg" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; width: auto;" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumisyscreo.jpg" title="example image" class="rounded z-depth-1" style="height: 400px; width: auto; object-fit: contain;" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eumisys.png" title="example image" class="img-fluid rounded z-depth-1" style="height: 400px; width: auto;" %}
+        {% include figure.liquid loading="eager" path="assets/img/eumisys.png" title="example image" class="rounded z-depth-1" style="height: 400px; width: auto; object-fit: contain;" %}
     </div>
 </div>
