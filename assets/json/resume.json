@@ -24,11 +24,20 @@
   },
   "work": [
     {
+      "name": "LiberAI",
+      "position": "Robotics Engineer",
+      "url": "https://www.liberai.com/",
+      "startDate": "2026-01-01",
+      "endDate": "Present",
+      "summary": "Working on robotics hardware development. ",
+      "highlights": ["Hardware Development"]
+    },
+    {
       "name": "Bytedance Seed Robotics",
       "position": "Robotics Engineer",
       "url": "https://seed.bytedance.com/en/",
       "startDate": "2024-07-17",
-      "endDate": "Present",
+      "endDate": "2025-12-31",
       "summary": "Working on robotics hardware development. ByteMini and E-UMI. ",
       "highlights": ["Hardware Development"]
     },
@@ -93,7 +102,9 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [
         "Robotics Arms Design",
-        "Robot Control"
+        "Robot Control",
+        "Intelligent Materials",
+        "Robotics Hardware Development"
       ]
     }
   ],
@@ -115,7 +126,9 @@
       "icon": "fa-solid fa-tag",
       "keywords": [
         "Robotics Arms",
-        "Robot Control"
+        "Robot Control",
+        "Intelligent Materials",
+        "Robotics Hardware Development"
       ]
     }
   ],
@@ -129,7 +142,7 @@
       "summary": "",
       "highlights": [],
       "startDate": "2024-09-01",
-      "endDate": "Present",
+      "endDate": "2025-12-31",
       "url": ""
     }
   ]
