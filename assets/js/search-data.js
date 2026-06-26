@@ -83,6 +83,11 @@ ninja.data = [{
           description: "",
           section: "Movies",handler: () => {
               window.location.href = "/movies/Interstellar/";
+            },},{id: "movies-给阿嬷的情书-dear-you",
+          title: '给阿嬷的情书 Dear You',
+          description: "",
+          section: "Movies",handler: () => {
+              window.location.href = "/movies/geiamadeqingshu/";
             },},{id: "movies-escape-from-the-outland-用武之地",
           title: 'Escape From The Outland 用武之地',
           description: "",
@@ -102,6 +107,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-join-in-liberai-as-hardware-researcher",
           title: 'Join in LiberAI as hardware researcher.',
+          description: "",
+          section: "News",},{id: "news-our-paper-bytewrist-was-accepted-to-icra-2026-as-an-oral-presentation",
+          title: 'Our paper ByteWrist was accepted to ICRA 2026 as an Oral presentation.',
           description: "",
           section: "News",},{id: "projects-gr-3",
           title: 'GR-3',
@@ -128,6 +136,11 @@ ninja.data = [{
           description: "data acquisition device",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-gr-rl",
+          title: 'GR-RL',
+          description: "reinforcement learning for robots",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-email',
         title: 'email',
