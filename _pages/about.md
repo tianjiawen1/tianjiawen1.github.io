@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Bytedance Seed-Robotics</a>. Base Beijing, China. <br> <a href='#'>contact mail:</a> tianjiawen@buaa.edu.cn.
+subtitle: <a href='https://www.liberai.com/'>LiberAI</a>. Base Beijing, China. <br> <span style="color:inherit;">contact mail:</span> tianjiawen@buaa.edu.cn.
 
 profile:
   align: right
