@@ -111,36 +111,41 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-bytewrist-was-accepted-to-icra-2026-as-an-oral-presentation",
           title: 'Our paper ByteWrist was accepted to ICRA 2026 as an Oral presentation.',
           description: "",
-          section: "News",},{id: "projects-gr-3",
-          title: 'GR-3',
-          description: "GR-3 VLA Model with ByteMini",
+          section: "News",},{id: "projects-bytemini",
+          title: 'ByteMini',
+          description: "a lightweight wheeled humanoid dual-arm robot",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/bytemini/";
             },},{id: "projects-bytewrist",
           title: 'ByteWrist',
           description: "Robot Wrist of ByteMini",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/bytewrist/";
             },},{id: "projects-continuum-robot",
           title: 'Continuum Robot',
           description: "PhD research project",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-bytemini",
-          title: 'ByteMini',
-          description: "a lightweight wheeled humanoid dual-arm robot",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/projects/continuumrobot/";
             },},{id: "projects-e-umi",
           title: 'E-UMI',
           description: "data acquisition device",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
+              window.location.href = "/projects/e-umi/";
+            },},{id: "projects-gr-3",
+          title: 'GR-3',
+          description: "GR-3 VLA Model with ByteMini",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gr-3/";
             },},{id: "projects-gr-rl",
           title: 'GR-RL',
           description: "reinforcement learning for robots",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
+              window.location.href = "/projects/gr-rl/";
+            },},{id: "projects-robot-embodiments",
+          title: 'Robot Embodiments',
+          description: "A catalog of 20 robot embodiments aligned into a Unified Action Space",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/robotembodiments/";
             },},{
         id: 'social-email',
         title: 'email',
