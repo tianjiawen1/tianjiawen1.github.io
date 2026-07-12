@@ -1,0 +1,171 @@
+# Robot embodiments aligned into the Unified Action Space.
+# Values mirror the LingBot-VLA 2.0 page exactly.
+# id:    slug (stable identifier)
+# img:   exact filename uploaded under assets/img/robots_src/
+# name:  display name
+# type:  embodiment category (source `category`)
+# ee:    end-effector type (source `eeType`)
+# total: total degrees of freedom (source `totalDof`)
+# freq:  policy frequency (source `policyFrequency`)
+# dof:   active action components; each value is the DoF shown on hover
+#        (keys must match the tags: Arm / EEF / Gripper / Move / Waist / Head / Hand)
+- id: astribot-s1
+  img: Astribot S1.webp
+  name: Astribot S1
+  type: Half-Humanoid
+  ee: Gripper
+  total: "25"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2, Move: 3, Waist: 4, Head: 2 }
+- id: leju-kuavo
+  img: Leju KUAVO 4 Pro.webp
+  name: Leju KUAVO 4 Pro
+  type: Humanoid
+  ee: Gripper/Hand
+  total: "21/31"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2, Move: 3, Head: 2, Hand: 12 }
+- id: qinglong
+  img: QingLong.webp
+  name: QingLong
+  type: Humanoid
+  ee: Gripper
+  total: "16"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2 }
+- id: galaxea-r1pro
+  img: Galaxea R1Pro.webp
+  name: Galaxea R1Pro
+  type: Half-Humanoid
+  ee: Gripper
+  total: "23"
+  freq: 15 Hz
+  dof: { Arm: 14, EEF: 14, Gripper: 2, Move: 3, Waist: 4 }
+- id: realman-rs02
+  img: Realman Rs-02.webp
+  name: Realman Rs-02
+  type: Half-Humanoid
+  ee: Gripper
+  total: "17"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2, Waist: 1 }
+- id: agibot-g1
+  img: AgiBot G1.webp
+  name: AgiBot G1
+  type: Half-Humanoid
+  ee: Gripper
+  total: "20"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2, Waist: 2, Head: 2 }
+- id: agilex-cobot-magic
+  img: AgileX Cobot Magic.webp
+  name: AgileX Cobot Magic
+  type: Dual-Arm Robots
+  ee: Gripper
+  total: "14"
+  freq: 30 Hz
+  dof: { Arm: 12, Gripper: 2 }
+- id: arx-lift2
+  img: ARX Lift2.webp
+  name: ARX Lift2
+  type: Dual-Arm Robots
+  ee: Gripper
+  total: "14"
+  freq: 30 Hz
+  dof: { Arm: 12, Gripper: 2 }
+- id: galaxea-r1lite
+  img: Galaxea R1Lite.webp
+  name: Galaxea R1Lite
+  type: Half-Humanoid
+  ee: Gripper
+  total: "17"
+  freq: 15 Hz
+  dof: { Arm: 12, Gripper: 2, Waist: 3 }
+- id: franka
+  img: Franka.webp
+  name: Franka
+  type: Single-Arm Robots
+  ee: Gripper
+  total: "8"
+  freq: 30 Hz
+  dof: { Arm: 7, EEF: 7, Gripper: 1 }
+- id: fourier-gr2
+  img: Fourier GR-2.webp
+  name: Fourier GR-2
+  type: Humanoid
+  ee: Hand
+  total: "32"
+  freq: 30 Hz
+  dof: { Arm: 14, Waist: 3, Head: 3, Hand: 12 }
+- id: tien-kung
+  img: Tien Kung.webp
+  name: Tien Kung
+  type: Humanoid
+  ee: Gripper
+  total: "16"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2 }
+- id: unitree-g1
+  img: Unitree G1.webp
+  name: Unitree G1
+  type: Humanoid
+  ee: Hand
+  total: "26"
+  freq: 30 Hz
+  dof: { Arm: 14, Hand: 12 }
+- id: magicbot-gen1
+  img: MagicBot Gen1.webp
+  name: MagicBot Gen1
+  type: Humanoid
+  ee: Gripper
+  total: "20"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2, Waist: 2, Head: 2 }
+- id: agibot-a2
+  img: AgiBot A2.webp
+  name: AgiBot A2
+  type: Humanoid
+  ee: Hand
+  total: "28"
+  freq: 30 Hz
+  dof: { Arm: 14, Head: 2, Hand: 12 }
+- id: galbot-g1
+  img: Galbot G1.webp
+  name: Galbot G1
+  type: Half-Humanoid
+  ee: Gripper
+  total: "22"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2, Waist: 4, Head: 2 }
+- id: moz1
+  img: Moz1.webp
+  name: Moz1
+  type: Half-Humanoid
+  ee: Gripper
+  total: "16"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2 }
+- id: zerith-h1
+  img: Zerith H1.webp
+  name: Zerith H1
+  type: Half-Humanoid
+  ee: Gripper
+  total: "23"
+  freq: 30 Hz
+  dof: { Arm: 14, Gripper: 2, Move: 2, Waist: 3, Head: 2 }
+- id: ur7e
+  img: UR7e.webp
+  name: UR7e
+  type: Dual-Arm Robots
+  ee: Gripper
+  total: "14"
+  freq: 30 Hz
+  dof: { Arm: 12, Gripper: 2 }
+- id: flexiv-rizon4
+  img: FLEXIV Rizon4.webp
+  name: FLEXIV Rizon 4
+  type: Single-Arm Robots
+  ee: Gripper
+  total: "8"
+  freq: 30 Hz
+  dof: { Arm: 7, Gripper: 1 }
