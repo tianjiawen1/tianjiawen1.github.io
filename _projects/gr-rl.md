@@ -3,7 +3,7 @@ layout: page
 title: GR-RL
 description: reinforcement learning for robots
 img: assets/img/gr-rl.png
-importance: 1
+importance: 4
 category: work
 ---
 2025年12月02日，发布了GR-RL项目。在该项目中实现了模型具有穿鞋带这个精细操作任务能力。可以对不同颜色，不同款式的多种鞋子实现精准穿鞋带。
