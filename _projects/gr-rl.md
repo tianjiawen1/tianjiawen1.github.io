@@ -10,8 +10,8 @@ category: work
 详细内容可以参考：[seed.bytedance.com/zh/gr_rl](https://seed.bytedance.com/zh/gr_rl)
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0 text-center">
-        <img src="{{ 'assets/img/gr-rl.png' | relative_url }}" class="rounded z-depth-1" style="height: 400px; width: auto; max-width: 100%; object-fit: contain;" alt="GR-RL">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/gr-rl.png" class="img-fluid rounded z-depth-1" caption="GR-RL: precise shoelace-threading manipulation" %}
     </div>
 </div>
 

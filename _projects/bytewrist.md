@@ -23,4 +23,4 @@ a novel highly-flexible and anthropomorphic parallel wrist for robotic manipulat
 </div>
 
 2025年9月23日，我们发布了ByteWrist机器人手腕结构，该手腕巧妙的用3个串联电机组成了并联机构，实现了机器人手腕的大角度偏转。
-详细内容参考：https://bytewrist.github.io/
+详细内容参考：[bytewrist.github.io](https://bytewrist.github.io/)

@@ -10,9 +10,9 @@ category: research
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cr1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/cr1.jpg" class="img-fluid rounded z-depth-1" caption="Continuum robot: overall structure" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/cr2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/cr2.jpg" class="img-fluid rounded z-depth-1" caption="Continuum robot: close-up detail" %}
     </div>
 </div>
