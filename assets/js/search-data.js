@@ -152,6 +152,11 @@ ninja.data = [{
           description: "reinforcement learning for robots",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gr-rl/";
+            },},{id: "projects-leo",
+          title: 'LEO',
+          description: "home-scenario robot hardware for daily housework",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/leo/";
             },},{
         id: 'social-email',
         title: 'email',
