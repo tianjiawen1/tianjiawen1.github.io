@@ -1,12 +1,14 @@
 ---
-layout: page
+layout: post
 title: Robot Embodiments
+date: 2026-07-12 00:00:00
 description: A catalog of 20 robot embodiments aligned into a Unified Action Space
 img: assets/img/yiwa.jpg
-importance: 2
-category: work
+tags: robot-embodiments
+categories: work
+giscus_comments: true
 ---
-<!-- _projects/7_project.md — Unified Action Space catalog, styled after LingBot-VLA 2.0 -->
+<!-- Unified Action Space catalog, styled after LingBot-VLA 2.0 -->
 
 <div class="uas">
   <div class="uas-head">
@@ -82,8 +84,12 @@ category: work
   }
   .uas-desc strong { color: #555fff; }
 
-  /* Central Unified Action Space card */
+  /* Central Unified Action Space card — sticks to the top of the
+     viewport so it stays visible while scrolling through the robots. */
   .uas-card {
+    position: sticky;
+    top: 68px;
+    z-index: 10;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,7 +99,9 @@ category: work
     max-width: 420px;
     border-radius: 10px;
     border: 1px solid #e5e7eb;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: saturate(180%) blur(8px);
+    -webkit-backdrop-filter: saturate(180%) blur(8px);
     box-shadow: 0 10px 28px rgba(18, 26, 48, 0.05);
   }
   .uas-card-title {
