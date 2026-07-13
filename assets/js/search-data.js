@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-the-impact-of-cameras-on-model-performance",
+        },{id: "post-robot-embodiments",
+        
+          title: "Robot Embodiments",
+        
+        description: "A catalog of 20 robot embodiments aligned into a Unified Action Space",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/robotembodiments/";
+          
+        },
+      },{id: "post-the-impact-of-cameras-on-model-performance",
         
           title: "The Impact of Cameras on Model Performance",
         
@@ -141,11 +152,6 @@ ninja.data = [{
           description: "reinforcement learning for robots",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gr-rl/";
-            },},{id: "projects-robot-embodiments",
-          title: 'Robot Embodiments',
-          description: "A catalog of 20 robot embodiments aligned into a Unified Action Space",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/robotembodiments/";
             },},{
         id: 'social-email',
         title: 'email',
